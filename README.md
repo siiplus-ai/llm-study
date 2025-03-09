@@ -75,6 +75,24 @@ curl http://localhost:8080/v1/chat/completions \
   "stream": false
 }'
 ```
+# plamo-2
+
+https://huggingface.co/pfnet/plamo-2-1b
+
+numpy>=1.26.4
+numba>=0.60.0
+torch>=2.4.1
+transformers>=4.44.2
+
+mamba_ssm>=2.2.2
+causal_conv1d>=1.4.0
+
+
+# install causal_conv1d>=1.4.0
+
+ModuleNotFoundError: No module named 'torch'
+
+
 
 # ebpf
 
